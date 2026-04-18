@@ -1,0 +1,13 @@
+Encapsulation is one of the fundamental principles of Object-Oriented Programming (OOP). It means wrapping data (variables) and code (methods) together into a single unit (class) and restricting direct access to the data.
+
+In this code, a class named "Pen" is created. Inside this class, two variables are declared: color and type. These variables are marked as private, which means they cannot be accessed directly from outside the class. This helps in protecting the data and maintaining control over it.
+
+To interact with these private variables, setter and getter methods are defined.
+
+The setter methods (setColor and setType) are used to assign values to the variables. Instead of directly modifying the variables, we pass values through these methods, which allows controlled modification.
+
+The getter methods (getColor and getType) are used to retrieve the values of the variables. Since the variables are private, these methods provide a safe way to access their values.
+
+In the main method, an object of the Pen class is created. The setter methods are used to set the color as "pink" and the type as "gel". Then, the getter methods are used to retrieve and print these values.
+
+This approach ensures that the internal data of the object is hidden and can only be accessed or modified in a controlled way.
