@@ -9,9 +9,9 @@ class Bike{
 
 
 public class Error {
-    public static void main(String[] args) {
-        Bike bike1 = new Bike();
-        bike1.name = "Yamaha"; // Error: name has private access in Bike
-        bike1.type = "sport"; // Error : type has private access in bike    }
+    // public static void main(String[] args) {
+        // Bike bike1 = new Bike();
+        // bike1.name = "Yamaha"; // Error: name has private access in Bike
+        // bike1.type = "sport"; // Error : type has private access in bike    }
     
 }
